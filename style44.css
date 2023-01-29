@@ -1,0 +1,48 @@
+:root {
+    --bgright: #b0e5f2;
+    --font: 40px;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.main {
+    background-color: aquamarine;
+}
+.global {
+    width: 50%;
+    height: 200px;
+    padding: 15px;
+    float: left;
+     margin-top: 20px;
+    background-color: var(--bgright);
+    border: 5px dotted blue;
+}
+.sub-div1{
+    font-size: var(--font);
+    border: 5px dotted blue; 
+}
+.sub-div2{
+    font-size: var(--font);
+    border: 5px dashed #35355c; 
+    margin-right: 30px;
+    margin-top: 20px;
+}
+.box1 {
+    height: 100px;
+    width: 200px;
+    padding: 10px;
+    float: left;
+     margin-left: 100px;
+    border: 3px solid #b92626;
+}
+
+.box2 {
+    height: 100px;
+    width: 200px;
+    padding: 10px;
+    float: left;
+    margin-left: 100px;
+    border: 3px solid #185825;
+}
